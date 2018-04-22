@@ -1,0 +1,390 @@
+body{
+	font-family: 'roboto'; /*font family used*/
+	background-color:#f3f3f3;  /*background color is set*/ 
+}
+header{
+	text-align: center;/*making the texts to appear on the center of the screen*/ 
+	height: 100px;/*height is set to 100px*/
+	padding:5px;/*padding given from all the side as px*/
+	background: linear-gradient( #16222a,#3a6073 ); /*linear gradien used*/
+	border-radius: 5px;/* border radius of 5px given to the header*/
+}
+header h1{
+	text-transform: uppercase;/*text transformation used*/
+	text-align: center;/*making the text to appear on the center of the screen*/
+	color:#fff;
+	line-height:40px;/*line height is set to 40px*/
+}
+.main_menu{
+	padding:5px 0 5px 0;
+	text-align: center;
+	line-height:30px;
+	border-radius: 5px;
+	background: linear-gradient( #16222a,#3a6073 );/*linear gradient is used*/
+}
+ul.main_menu{
+	margin-top: 12px;/*margin at the top is given*/
+}
+.main_menu li{
+	display: inline;
+	padding:0 10px 0 10px;
+	font-size:15px;
+}
+.main_menu a{
+	text-decoration: none;
+	color:#fff;
+	padding:10px;
+	font-variant: small-caps; /*font varient is given*/
+}
+.main_menu a:hover{
+	color:#59d5d8;
+}
+/*end of Header and Navigation */
+
+/* css for home */
+.section{
+	display: flex;
+	flex-direction: row;/*making two row in section part*/
+}
+#social{
+	height: 470px;
+}
+.leftSide{
+	width: 40%;
+	height: 550px;
+}
+.rightSide{
+	width: 60%;
+	height: 150px;
+
+}
+.profile{
+	height: 450px;
+	width: 485px;
+	position: absolute; /*profile position is set*/
+	left: 30px;
+	margin-top: 10px;	
+}
+/*css for home ends here*/
+
+/*css for social icons*/
+.mediaIcon{
+	height: 50px;
+	opacity: 0.9;
+	transition: 1s ease;/*transition is used in the mediaIcon*/
+	width: 50px; 	
+}
+.mediaIcon:hover{
+	opacity: 0.2;/*opacity is used in in the icon to make design looks attractive*/
+}
+/*css for social ends here*/
+/*home css */
+.content{
+	width: 50%;
+	position: relative;
+	left:25%;
+	top: 125px;
+}
+.content p{
+	width:500px;
+	font-size: 18px;
+}
+.profile h3{
+	padding-left: 130px;/*profile padding is given*/
+	position: relative;
+	top: -15px;
+}
+.profile img{
+	width: 350px;
+	border-radius: 50%;
+	height:95%;
+	position: relative;/*image position is set*/
+	left: 15px;
+	top: -10px;
+	opacity: 1;
+	transition: all .5s;/*transition is used in the image*/
+}
+.profile img:hover{
+	transform: scale(1.1);/*transfer scale is set*/
+	cursor: pointer;/*cursor is used*/
+	box-shadow: 2px 2px gray;/*box shadow is used in the image*/
+}
+/*home css ends here*/
+/*footer*/
+footer{	
+    width:100%;
+    padding: 5px 0 5px 0;
+    background: linear-gradient( #16222a,#3a6073 );/*linear-gradient is used*/
+    border-radius: 5px;/*footer radius is given here*/
+    text-align: center; 
+    line-height: 5px;   
+}
+footer p{
+	color: white;/*footer paragraph color is given*/
+	position: relative;
+	top: 0px;
+}
+footer p:hover{
+	color: #59d5d8;/*footer color is given in the footer text where hover in the text*/
+}
+/*footers ends here*/
+/*about css*/
+.informations{
+	width: 50%;
+}
+.informations p{
+	padding-left: 150px;
+	width: 350px; /*paragraph width is set here*/
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+.informations ul{
+	padding-left:160px;
+}
+.informations ul li{
+	font-size: 18px;
+}
+.photo{
+	padding-left: 150px;
+	height: 440px;
+	width:350px;
+}
+.about{
+	display: flex;/*display is set to flex here*/
+	flex-direction: row;
+}
+/*end here*/
+/*cv css*/
+.g_first{
+	display: flex;
+	flex-direction: row;/*flex-direction is set to row to make the two part of the cv*/
+}
+.g_left{
+	width: 50%;/*width is given to the left side of the area(content)*/
+}
+.g_left ul li p{
+	font-size: 20px; /*font size is given to the paragraph*/
+}
+.g_right{
+	padding-left: 120px;
+}
+.g_right ul li p{
+    font-size:20px; 
+}
+.g_second{
+	display: flex;
+	flex-direction: row;
+}
+.g_leftt{
+	width: 50%;
+}
+.g_leftt ul li p{     /*font size is given*/
+	font-size: 20px;
+}
+.g_rightt{
+	padding-left: 120px;
+}
+.g_rightt ul li p{
+font-size: 20px;
+}
+
+/*end here*/
+/*form css*/
+input[type='text']{   /*placeholder css is used here*/
+	width: 150px;
+	height: 20px;	
+}
+.firstname{
+	position: relative;/*position is set to relative*/
+	left: 10px;
+}
+.surname{
+	position: relative;
+	left: 15px;
+}
+.email{
+	position: relative; /*position is set to relative*/
+	left: 40px;
+}
+.feedback{
+	position: relative;
+	left: 40px;
+}
+.send{
+	position: relative;
+	left: 120px;
+}
+.contactForm{
+	display: flex;/*flex property is used here*/
+	flex-direction: row;
+}
+.form{
+	width: 50%;
+}
+/*code for models_gp*/
+.image p{
+	text-align:justify;
+	font-size: 17px;
+}
+.picture img{ 
+	width:50%; /*picture width is given*/
+}
+.index p{
+	text-align:justify;
+	font-size:17px;
+}
+.aboutG p{
+	text-align: justify;
+	font-size: 17px;
+}
+.images img{
+	width:50%;
+}
+.cvs p{
+	text-align:justify; /*text align is given*/
+	font-size:17px; /*font size set here*/
+}
+.dell img{
+	width:50%;
+}
+.socials p{
+	text-align: justify;
+	font-size: 18px;
+}
+.mob img{
+	width: 50%;
+}
+.contacts p{
+	text-align: justify;
+	font-size: 18px;
+}
+.hp img{
+	width:50%;
+}
+.cover p{
+	width:50%;
+	margin-left: 350px;
+}
+.home p{
+	text-align: justify;
+	font-size: 18px;
+}
+.reference ul li{           /*reference class is set  and ul and li is given*/
+	text-align: justify;
+	font-size: 18px;
+}
+.reference p{
+	text-align: justify;
+	font-size: 18px;
+}
+.csss p{
+	width:50%;
+}
+/*code of models_gp ends here*/ 
+/*css for mobile responsive*/
+@media (max-width: 900px){ /*max width is set here in the media part of the mobile responsive */
+	.main_menu ul{
+		display: flex; /*flex property is used  in the main_menu*/
+		flex-direction: column;
+	}
+	.main_menu li{
+		display: block; /*display is set to block*/
+	}
+	.main_menu li a{
+		position: relative; /*positon is set */
+		left: -90px; /*position is set to left*/
+	}
+	.profile h3{
+		position: relative;
+		left: -45px; 
+	}
+	.section{
+		display: flex;
+		flex-direction: column;
+	}
+	.sec{
+		height: 800px;/*section height is given*/
+	}
+	.profile img{
+		width: 200px;/*profile width is set here*/
+		height: 350px;/*profile height is set here*/
+	}
+	.leftSide{
+		height: 300px;
+	}
+	.content p{
+		width: 220px;
+	}
+	.about{
+		display: flex; /*felx is used in the about div*/
+		flex-direction: column; /*flex direction is set here*/
+		height: 1000px;
+	}
+	.informations{
+		margin-left: -150px;
+	}
+	.informations p{
+		width: 270px;
+	}
+	.photo{
+		margin-left: -150px;/*photo margin is set*/
+		width: 100%;
+	}
+	.cv{
+		display: flex;/*display flex property is used in the cv class*/
+		flex-direction: column;
+		height: auto;/*heigth is set to auto*/
+	}
+	.g_first{
+		display: flex;
+		flex-direction: column;
+	}
+	.g_second{
+		display: flex;
+		flex-direction: column;
+	}
+	.g_left{
+		margin-left: -5px; /*margin is set to left*/
+	}
+	.g_left ul, .g_right ul{
+		width: 240px;
+	}
+	.g_right{
+		margin-left: -120px;
+	}
+	.g_rightt{
+		margin-left: -120px;
+	}
+	#social{
+		height: 150px;/*id property is used and height is set*/
+	}
+	.contact{
+		height: 350px;
+	}
+	.contactForm{
+		display: flex;
+		flex-direction: column; /*flex direction is set to here*/
+		height: 720px;
+	}
+	.map{
+		height: 300px;/*map image of contact page height is set here*/
+		width: 270px;
+	}
+	.email{
+		position: relative;
+		left: 15px;
+	}
+	.firstname{
+		position: relative;
+		left: 13px;
+	}
+	.feedback{
+		position: relative;
+		left: 0px;
+	}
+	.send{
+		position: relative;/*send button postion is set here*/
+		left: 85px;
+		top: -5px;
+	}
+}/*css for mobile responsive ends here*/
